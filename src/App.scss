@@ -1,0 +1,90 @@
+.App{
+    text-align: center;
+    padding: 20px 30px;
+  
+    .Home{
+      padding-top: 20px;
+      .Home-create{
+        margin-bottom: 20px;
+        .btn-create{
+          text-decoration: none;
+          color: white;
+          background-color: blue;
+          padding: 6px 18px;
+          border-radius: 4px;
+          cursor: pointer;
+        }
+      }
+      .post-list{
+        margin: 0;
+        padding-left: 0;
+        text-align: left;     
+      }
+    }
+  
+  }
+  .create-post, .update-post{
+    // margin-top: 50px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  
+    .submitted{
+      display: flex;
+      justify-content: space-around;
+    }
+  
+    form{
+      margin-top: 5px;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+  
+      .form-control{
+        width: 500px;
+        height: 30px;
+        padding-top: 10px;
+        display: flex;
+        justify-content: space-between;
+  
+        input{
+          width: 350px;
+        }
+      }
+    }
+  }
+  .btn{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    padding: 7px 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+  }
+  table, tr, td {
+    border: 1px solid;
+    border-collapse: collapse;
+  }
+  
+  .id, .userId{
+    width: 50px;
+  }
+  table{
+    width: 100%;
+  }
+  td{
+    padding: 6px 10px;
+  }
+  .title{
+    width: 250px;
+  }
+  .update, .delete{
+    width: 80px;
+    text-align: center;
+  }
